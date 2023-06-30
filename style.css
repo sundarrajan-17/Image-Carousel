@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+img{
+    width: 800px;
+    height: 650px;
+    object-fit: cover;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width:800px;
+    height:700px;
+    overflow: hidden;
+}
+.image-container{
+    display: flex;
+    transform:translateX(0);
+    transition: transform 0.5s;
+}
+.btn{
+    width:49.5%;
+    background-color: #4C0033;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:white ;
+    color:#4C0033;
+}
+.btn:focus{
+    outline:none;
+}
